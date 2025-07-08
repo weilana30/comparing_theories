@@ -1,0 +1,2 @@
+/cm/local/apps/slurm/var/spool/job40735222/slurm_script: line 13: 2560720 Killed                  python /home/aweiland/comparing_theories/egret/egret_final/egret.py --batch_num 13 &> /home/aweiland/comparing_theories/egret/egret_final/time/job_13.txt
+slurmstepd: error: Detected 1 oom_kill event in StepId=40735222.batch. Some of the step tasks have been OOM Killed.

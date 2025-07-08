@@ -1,0 +1,1 @@
+/cm/local/apps/slurm/var/spool/job40752461/slurm_script: line 13: 4007173 Bus error               (core dumped) python /home/aweiland/comparing_theories/egret/egret_final/egret.py --batch_num 9 &> /home/aweiland/comparing_theories/egret/egret_final/time/job_9.txt

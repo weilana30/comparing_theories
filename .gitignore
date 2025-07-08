@@ -1,0 +1,17 @@
+dft_geometries/DFT.sdf
+dft_geometries/dft_xyz_files
+egret/install_files
+xTB/input_files
+aimnet/aimnet_xyz_files
+*files
+aimnet/not_converged
+aimnet/optimized
+*batches
+*outputs
+*scripts
+dft_geometries/5k_mols
+*xyz
+*output
+*time
+orca
+

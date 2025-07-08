@@ -1,0 +1,4 @@
+/home/aweiland/.conda/envs/egret-env/lib/python3.12/site-packages/torchtnt/utils/version.py:12: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/home/aweiland/.conda/envs/egret-env/lib/python3.12/site-packages/fairchem/core/models/uma/escn_md.py:130: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  Jd_list = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))

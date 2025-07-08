@@ -1,0 +1,26 @@
+/home/aweiland/.conda/envs/egret-env/lib/python3.12/site-packages/torchtnt/utils/version.py:12: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/home/aweiland/.conda/envs/egret-env/lib/python3.12/site-packages/fairchem/core/models/uma/escn_md.py:130: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  Jd_list = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+Traceback (most recent call last):
+  File "/home/aweiland/comparing_theories/UMA/uma_test/uma_test.py", line 20, in <module>
+    opt.run(fmax=0.05)
+  File "/home/aweiland/.conda/envs/egret-env/lib/python3.12/site-packages/ase/optimize/optimize.py", line 417, in run
+    return Dynamics.run(self, steps=steps)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aweiland/.conda/envs/egret-env/lib/python3.12/site-packages/ase/optimize/optimize.py", line 286, in run
+    for converged in Dynamics.irun(self, steps=steps):
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aweiland/.conda/envs/egret-env/lib/python3.12/site-packages/ase/optimize/optimize.py", line 236, in irun
+    self.optimizable.get_forces()
+  File "/home/aweiland/.conda/envs/egret-env/lib/python3.12/site-packages/ase/optimize/optimize.py", line 37, in get_forces
+    return self.atoms.get_forces()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aweiland/.conda/envs/egret-env/lib/python3.12/site-packages/ase/atoms.py", line 829, in get_forces
+    forces = self._calc.get_forces(self)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aweiland/.conda/envs/egret-env/lib/python3.12/site-packages/torchtnt/framework/unit.py", line 112, in __getattr__
+    return self.__getattribute__(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MLIPPredictUnit' object has no attribute 'get_forces'. Did you mean: 'direct_forces'?
