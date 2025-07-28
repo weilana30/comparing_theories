@@ -1,4 +1,4 @@
-#!/bin/bash
+i#!/bin/bash
 #SBATCH --job-name="r2scan3c_test"
 #SBATCH --partition=shared
 #SBATCH --nodes=1
