@@ -24,7 +24,7 @@ The project involved:
 
 ## Results
 
-- Analysis of findings can be found in the /
+- Analysis of findings can be found in the /analysis/rmsd_analysis.ipynb notebook for analysis on accuracy and /analysis/time_comparison.ipynb for analysis on computational cost.
 
 ## Usage
 
